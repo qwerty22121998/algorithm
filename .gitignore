@@ -1,5 +1,6 @@
 *.out
 **/*.out
 **/.vscode/
+**/.idea/
 **/*.exe
 test/
