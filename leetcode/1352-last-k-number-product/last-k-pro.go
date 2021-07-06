@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/product-of-the-last-k-numbers/submissions/ - MEDIUM
+
 package last_k_prod
 
 type ProductOfNumbers struct {
