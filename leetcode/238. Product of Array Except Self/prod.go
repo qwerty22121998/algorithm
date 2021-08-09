@@ -1,3 +1,4 @@
+// https://leetcode.com/explore/interview/card/top-interview-questions-hard/116/array-and-strings/827/ - MEDIUM
 package prod
 
 func productExceptSelf(arr []int) []int {
