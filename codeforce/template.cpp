@@ -20,24 +20,6 @@ typedef vector<ll> vl;
 typedef vector<llll> vll;
 typedef map<int, int> mii;
 
-const int MAXPRIME = 1e6 + 1;
-ll pdiv[MAXPRIME] = {0};
-vl prime;
-
-void eratos() {
-  for (int i = 0; i < MAXPRIME; i++) pdiv[i] = i;
-  pdiv[1] = 0;
-  for (ll i = 2; i <= sqrt(MAXPRIME); i++) {
-    if (pdiv[i] != i) continue;
-    prime.push_back(i);
-    ll j = i * i;
-    while (j < MAXPRIME) {
-      pdiv[j] = i;
-      j += i;
-    }
-  }
-}
-
 void init() {}
 
 void solve() {}
