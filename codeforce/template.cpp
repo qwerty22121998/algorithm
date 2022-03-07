@@ -24,6 +24,8 @@ const int MAXPRIME = 1e6 + 1;
 ll pdiv[MAXPRIME] = {0};
 vl prime;
 
+#ifdef ERATOS
+
 void eratos() {
   for (int i = 0; i < MAXPRIME; i++) pdiv[i] = i;
   pdiv[1] = 0;
@@ -37,6 +39,7 @@ void eratos() {
     }
   }
 }
+#endif
 
 void init() {}
 
